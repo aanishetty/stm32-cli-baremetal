@@ -1,0 +1,28 @@
+# ===== Build artifacts =====
+Debug/
+Release/
+build/
+*.elf
+*.map
+*.hex
+*.bin
+
+# ===== CubeIDE / Eclipse =====
+.metadata/
+.settings/
+*.launch
+*.log
+
+# ===== Generated config backups =====
+*.bak
+*.tmp
+*.swp
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Optional: linker/map leftovers =====
+*.d
+*.o
+
