@@ -1,5 +1,6 @@
 #include "system_init.h"
 #include "uart.h"
+#include "systick.h"
 #include <stdio.h>
 
 cli_interface_t debug_cli =
@@ -14,6 +15,7 @@ cli_interface_t debug_cli =
 
 void system_init(void)
 {
+	systick_init(1000);
 	gpio_init();
 	debug_cli.init();
 

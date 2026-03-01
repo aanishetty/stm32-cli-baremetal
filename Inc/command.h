@@ -1,6 +1,7 @@
 #ifndef COMMAND_H_
 #define COMMAND_H_
 
+void cmd_blink(void);
 void cmd_ver(void);
 void cmd_help(void);
 
